@@ -1,6 +1,7 @@
 import React from 'react'
 import Project1 from '../assets/ProjectImg.png'
 import Paper1 from '../assets/PaperImg.png'
+import portSite from '../assets/portfolio_site.png'
 
 const Work = () => {
   return (
@@ -55,20 +56,20 @@ const Work = () => {
 
               </div>{/**Close Project card---------- */}
               {/**PRoject card */}
-              <div style={{backgroundImage: `url(${Project1})`}} 
+              <div style={{backgroundImage: `url(${portSite})`}} 
               className='shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
                       <span className='text-2xl font-bold text-[#ECECEC]'>
-                        Pandas Project with IMDB dataset
+                        Portfolio site with React.js and Tailwind.css
                       </span>
                       <div>
                           <a href="/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Demo</button>
                           </a>
 
-                          <a href="/">
+                          <a href="https://github.com/KrisMannino/portfolio-react-app">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Code</button>
                           </a>
                       </div>
@@ -78,7 +79,7 @@ const Work = () => {
 
               {/**PRoject card */}
               <div style={{backgroundImage: `url(${Paper1})`}} 
-              className='shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
+              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
@@ -95,7 +96,7 @@ const Work = () => {
               </div>{/**Close Project card---------- */}
               {/**PRoject card */}
               <div style={{backgroundImage: `url(${Project1})`}} 
-              className='shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
+              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
@@ -117,7 +118,7 @@ const Work = () => {
 
               {/**PRoject card */}
               <div style={{backgroundImage: `url(${Paper1})`}} 
-              className='shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
+              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
