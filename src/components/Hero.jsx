@@ -1,5 +1,6 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import HeroImg from '../assets/KrisWebProfile.png'
 const Hero = () => {
   return (
     <div name='hero' className='w-full h-screen bg-[#474787]'>
@@ -8,8 +9,10 @@ const Hero = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-[#AD5E99]'>Hello, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#3a98a5]'>Kris Mannino</h1>
-        <h2 className='text-2xl sm:text-5xl font-bold text-[#AD5E99]'>Computer Science student at <a href="wssu.edu">Winston-Salem State University</a></h2>
-        <p className='py-4 max-w-[700px] text-[#AAABB8]'>I am currently pursuing my Masters degree in Computer Science, working as a research assitant in the <a href="https://www.wssu.edu/academics/colleges-and-departments/college-of-arts-sciences-business-education/center-for-applied-data-science/index.html">Center for Applied Data Science</a>, and I'm an all around pretty cool guy.</p>
+        <h2 className='text-2xl sm:text-5xl font-bold text-[#AD5E99]' style={{ marginRight: '30%' }}>Computer Science student at <a href="wssu.edu">Winston-Salem State University</a></h2>
+        <img className='max-w-[25%] absolute right-0 mr-12 rounded-full border-2 border-[#3a98a5] bg-[#7DF9FF]' src={HeroImg} alt="Kris' Picture" />
+
+        <p className='py-4 max-w-[700px] text-[#AAABB8]' style={{ marginRight: '32%' }}>I am currently pursuing my Masters degree in Computer Science, working as a research assitant in the <a href="https://www.wssu.edu/academics/colleges-and-departments/college-of-arts-sciences-business-education/center-for-applied-data-science/index.html">Center for Applied Data Science</a>, and I'm an all around pretty cool guy.</p>
         <div>
           <button className='rounded-full text-[#ECECEC] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#3a98a5] hover:border-[#3a98a5]'>
             View work 
@@ -18,7 +21,10 @@ const Hero = () => {
             </span>
           </button>
       </div>
-      </div>
+  
+        </div>
+
+ 
 
 
     </div>
