@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-react-app/static/css/main.96deee9a.css",
-    "main.js": "/portfolio-react-app/static/js/main.7140d296.js",
+    "main.css": "/portfolio-react-app/static/css/main.02d1219f.css",
+    "main.js": "/portfolio-react-app/static/js/main.683f7768.js",
     "static/media/2024careerExpoHeadshot.png": "/portfolio-react-app/static/media/2024careerExpoHeadshot.c10dcb865b5b8a919b47.png",
+    "static/media/KrisWebProfile.png": "/portfolio-react-app/static/media/KrisWebProfile.62f9e559c8d368687969.png",
     "static/media/me_and_luna.jpeg": "/portfolio-react-app/static/media/me_and_luna.88bff4bbf513fd19ab8e.jpeg",
     "static/media/CADSposter.png": "/portfolio-react-app/static/media/CADSposter.9f7930e98a28d163e931.png",
     "static/media/Kris-Logo-512x512.png": "/portfolio-react-app/static/media/Kris-Logo-512x512.fb41f29a3c4d414985d9.png",
@@ -19,11 +20,11 @@
     "static/media/js_icon.png": "/portfolio-react-app/static/media/js_icon.60dbbe1569571db1eda7.png",
     "static/media/python_icon.png": "/portfolio-react-app/static/media/python_icon.2352cac0787ede2aa30e.png",
     "index.html": "/portfolio-react-app/index.html",
-    "main.96deee9a.css.map": "/portfolio-react-app/static/css/main.96deee9a.css.map",
-    "main.7140d296.js.map": "/portfolio-react-app/static/js/main.7140d296.js.map"
+    "main.02d1219f.css.map": "/portfolio-react-app/static/css/main.02d1219f.css.map",
+    "main.683f7768.js.map": "/portfolio-react-app/static/js/main.683f7768.js.map"
   },
   "entrypoints": [
-    "static/css/main.96deee9a.css",
-    "static/js/main.7140d296.js"
+    "static/css/main.02d1219f.css",
+    "static/js/main.683f7768.js"
   ]
 }
