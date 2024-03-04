@@ -15,8 +15,8 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Hero /> } />
-        <Route path='/about' element={<About /> } />
+        <Route path='/portfolio-react-app' element={<Hero /> } />
+        <Route path='/portfolio-react-app/about' element={<About /> } />
         <Route path='/skills' element={<Skills /> } />
         <Route path='/work' element={<Work /> } />
         <Route path='/achievements' element={<Achievements /> } />
