@@ -30,7 +30,7 @@ const Navbar = () => {
             <Link to="work" smooth={true} duration={500}>Work</Link>
           </li>
           <li>
-            <Link to="blog" smooth={true} duration={500}>Blog</Link>
+            <Link to="achievements" smooth={true} duration={500}>Achievements</Link>
           </li>
           <li>
             <Link to="gallery" smooth={true} duration={500}>Gallery</Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
           <li><a href="/about">About</a></li>
           <li><a href="/skills">Skills</a></li>
           <li><a href="/work">Work</a></li>
-          <li><a href="/blog">Blog</a></li>
+          <li><a href="/achievements">Achievements</a></li>
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
@@ -61,7 +61,7 @@ const Navbar = () => {
             <li className='py-6 text-4xl'><Link to="about" onClick={handleClick} smooth={true} duration={500}>About</Link></li>
             <li className='py-6 text-4xl'><Link to="skills" onClick={handleClick} smooth={true} duration={500}>Skills</Link></li>
             <li className='py-6 text-4xl'><Link to="work" onClick={handleClick} smooth={true} duration={500}>Work</Link></li>
-            <li className='py-6 text-4xl'><Link to="blog" onClick={handleClick} smooth={true} duration={500}>Blog</Link></li>
+            <li className='py-6 text-4xl'><Link to="achievements" onClick={handleClick} smooth={true} duration={500}>Achievements</Link></li>
             <li className='py-6 text-4xl'><Link to="gallery" onClick={handleClick} smooth={true} duration={500}>Gallery</Link></li>
             <li className='py-6 text-4xl'><Link to="contact" onClick={handleClick} smooth={true} duration={500}>Contact</Link></li>
           </ul> */}
@@ -71,7 +71,7 @@ const Navbar = () => {
             <li className='py-6 text-4xl'><a href="/about">About</a></li>
             <li className='py-6 text-4xl'><a href="/skills">Skills</a></li>
             <li className='py-6 text-4xl'><a href="/work">Work</a></li>
-            <li className='py-6 text-4xl'><a href="/blog">Blog</a></li>
+            <li className='py-6 text-4xl'><a href="/achievements">Achievements</a></li>
             <li className='py-6 text-4xl'><a href="/gallery">Gallery</a></li>
             <li className='py-6 text-4xl'><a href="/contact">Contact</a></li>
           </ul>
@@ -81,22 +81,22 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
           <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
-              <a href="/" className='flex justify-between items-center w-full text-[#ECECEC]'>
+              <a href="https://www.linkedin.com/in/krismannino/" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 LinkedIn <FaLinkedin size={30}/>
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[black]'>
-              <a href="/" className='flex justify-between items-center w-full text-[#ECECEC]'>
+              <a href="https://github.com/KrisMannino" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 Github <FaGithub size={30}/>
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#DFFF00]'>
-              <a href="/" className='flex justify-between items-center w-full text-[#2C2C54]'>
+              <a href="mailto:krismannino@gmail.com?subject=I clicked the email link on your site=Hello, I saw your website and wanted to get in touch." className='flex justify-between items-center w-full text-[#2C2C54]'>
                 Email <HiOutlineMail size={30}/>
                 </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FF6B6B]'>
-              <a href="/" className='flex justify-between items-center w-full text-[#ECECEC]'>
+              <a href="/contact" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 Resume <BsFillPersonLinesFill size={30}/>
                 </a>
             </li>
