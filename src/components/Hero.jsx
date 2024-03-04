@@ -12,7 +12,7 @@ const Hero = () => {
         <h2 className='text-2xl sm:text-5xl font-bold text-[#AD5E99]' style={{ marginRight: '30%' }}>Computer Science student at <a href="wssu.edu">Winston-Salem State University</a></h2>
         <img className='max-w-[25%] absolute right-0 mr-12 rounded-full border-2 border-[#3a98a5] bg-[#7DF9FF]' src={HeroImg} alt="Kris' Picture" />
 
-        <p className='py-4 max-w-[700px] text-[#AAABB8]' style={{ marginRight: '32%' }}>I am currently pursuing my Masters degree in Computer Science, working as a research assitant in the <a href="https://www.wssu.edu/academics/colleges-and-departments/college-of-arts-sciences-business-education/center-for-applied-data-science/index.html">Center for Applied Data Science</a>, and I'm an all around pretty cool guy.</p>
+        <p className='py-4 max-w-[700px] text-[#AAABB8]' style={{ marginRight: '32%' }}>I am currently pursuing my Masters degree in Computer Science, working as a research assistant in the <a href="https://www.wssu.edu/academics/colleges-and-departments/college-of-arts-sciences-business-education/center-for-applied-data-science/index.html">Center for Applied Data Science</a>, and I'm an all around pretty cool guy.</p>
         <div>
           <button className='rounded-full text-[#ECECEC] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#3a98a5] hover:border-[#3a98a5]'>
             View work 
