@@ -1,6 +1,5 @@
 import React from 'react';
 import cADSPoster from '../assets/CADSposter.png'
-import loadingImg from '../assets/loading.gif'
 
 const Achievements = () => {
   return (
@@ -27,7 +26,7 @@ const Achievements = () => {
             <p className='mt-2'>Click back in to see more of my awards, certifications, and other happenings</p>
           </div>
           <div className='flex justify-center items-center mb-8'>
-            <img className='w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500' src={loadingImg} alt="Achievement Two" />
+          <div className='w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500 loader'></div>
           </div>
 
   

@@ -2,6 +2,7 @@ import React from 'react'
 import Project1 from '../assets/ProjectImg.png'
 import Paper1 from '../assets/PaperImg.png'
 import portSite from '../assets/portfolio_site.png'
+import sAlgorithms from '../assets/Sting_Matching_Report.pdf'
 
 const Work = () => {
   return (
@@ -48,7 +49,7 @@ const Work = () => {
                         String Matching Algorithms research 
                       </span>
                       <div>
-                          <a href="/">
+                          <a href={sAlgorithms}>
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>View</button>
                           </a>
                       </div>
