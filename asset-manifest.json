@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KrisMannino/portfolio-react-app/static/css/main.8f49c8a1.css",
-    "main.js": "/KrisMannino/portfolio-react-app/static/js/main.b9f145e1.js",
+    "main.js": "/KrisMannino/portfolio-react-app/static/js/main.f7b8ce38.js",
     "static/media/2024careerExpoHeadshot.png": "/KrisMannino/portfolio-react-app/static/media/2024careerExpoHeadshot.c10dcb865b5b8a919b47.png",
     "static/media/KrisWebProfile.png": "/KrisMannino/portfolio-react-app/static/media/KrisWebProfile.62f9e559c8d368687969.png",
     "static/media/me_and_luna.jpeg": "/KrisMannino/portfolio-react-app/static/media/me_and_luna.88bff4bbf513fd19ab8e.jpeg",
@@ -22,10 +22,10 @@
     "static/media/python_icon.png": "/KrisMannino/portfolio-react-app/static/media/python_icon.2352cac0787ede2aa30e.png",
     "index.html": "/KrisMannino/portfolio-react-app/index.html",
     "main.8f49c8a1.css.map": "/KrisMannino/portfolio-react-app/static/css/main.8f49c8a1.css.map",
-    "main.b9f145e1.js.map": "/KrisMannino/portfolio-react-app/static/js/main.b9f145e1.js.map"
+    "main.f7b8ce38.js.map": "/KrisMannino/portfolio-react-app/static/js/main.f7b8ce38.js.map"
   },
   "entrypoints": [
     "static/css/main.8f49c8a1.css",
-    "static/js/main.b9f145e1.js"
+    "static/js/main.f7b8ce38.js"
   ]
 }
