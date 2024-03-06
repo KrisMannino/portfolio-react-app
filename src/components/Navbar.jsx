@@ -51,7 +51,7 @@ const Navbar = () => {
         </ul>
 
       {/*Hamburger Menu */}
-        <div onClick={handleClick} className='md:hidden z-10'>
+        <div onClick={handleClick} className='md:hidden'>
           {!nav ? <FaBars/> : <FaTimes/>}
         </div>
 
@@ -66,7 +66,7 @@ const Navbar = () => {
             <li className='py-6 text-4xl'><Link to="/contact" onClick={handleClick} smooth={true} duration={500}>Contact</Link></li>
           </ul> */}
           {/* Static Mobile menu */}
-          <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#474787] flex flex-col justify-center items-center'}>
+          <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#474787] flex flex-col justify-center items-center z-10'}>
             <li className='py-6 text-4xl'><a href="/">Home</a></li>
             <li className='py-6 text-4xl'><a href="/about">About</a></li>
             <li className='py-6 text-4xl'><a href="/skills">Skills</a></li>

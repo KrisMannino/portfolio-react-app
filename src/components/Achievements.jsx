@@ -1,5 +1,6 @@
 import React from 'react';
 import cADSPoster from '../assets/CADSposter.png'
+import CADSXLPoster from '../assets/CADS_Poster.jpeg'
 
 const Achievements = () => {
   return (
@@ -17,7 +18,7 @@ const Achievements = () => {
             <p className='mt-2'>Awarded Third Place for the non-Biological Sciences category in the Poster competition on Scholarship day at <a href="wssu.edu">WSSU</a>, Spring 2023.</p>
           </div>
           <div className='flex justify-center items-center mb-8'>
-            <img className='w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500' src={cADSPoster} alt="CADS Poster" />
+            <a href={CADSXLPoster}><img className='w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500' src={cADSPoster} alt="CADS Poster" /></a>
           </div>
 
           {/* Second Item */}
@@ -26,7 +27,7 @@ const Achievements = () => {
             <p className='mt-2'>Click back in to see more of my awards, certifications, and other happenings</p>
           </div>
           <div className='flex justify-center items-center mb-8'>
-          <div className='w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500 loader'></div>
+          <div className='hidden md:block w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500 loader'></div>
           </div>
 
   

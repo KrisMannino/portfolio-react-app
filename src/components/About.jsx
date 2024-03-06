@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div>
               <p>
-                I am a senior at WSSU with full-stack development skills. I am minoring in data science and am always expanding my knowledge in development by learnig different languages, frameworks, and system designs.
+                I am a senior at <a href="wssu.edu">WSSU</a> with full-stack development skills. I am minoring in data science and am always expanding my knowledge in development by learnig different languages, frameworks, and system designs.
               </p>
             </div>
           </div>
