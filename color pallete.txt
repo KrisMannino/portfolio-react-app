@@ -1,0 +1,26 @@
+
+Urban chic combines the depth of dark indigo and deep purple-gray with the coolness of gray tones. 
+This palette is perfect for creating a sleek and sophisticated design, ideal for urban-inspired projects and minimalist interiors.
+
+Hex codes: 
+
+dark indigo #2C2C54, 
+deep purple-gray #474787, 
+cool gray #AAABB8, 
+light gray #ECECEC
+
+LinkedIn blue #0072b1
+Luminous Chartreuse #DFFF00
+Bright Coral #FF6B6B
+
+shirt teal #3a98a5
+unused
+Lime Green #AEEA00
+Vivid Cyan #00A7E1
+
+Vibrant Coral #FF6B6B
+Electric yellow #FFEA00
+Electric Blue #7DF9FF
+Radiant Orchid #AD5E99
+
+text-[#AAABB8] ---darker text
