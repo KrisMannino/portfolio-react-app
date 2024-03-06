@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react-app/static/css/main.8f49c8a1.css",
-    "main.js": "/portfolio-react-app/static/js/main.2b783d67.js",
+    "main.css": "/portfolio-react-app/static/css/main.1d8b0bc7.css",
+    "main.js": "/portfolio-react-app/static/js/main.2c679f1f.js",
     "static/media/2024careerExpoHeadshot.png": "/portfolio-react-app/static/media/2024careerExpoHeadshot.c10dcb865b5b8a919b47.png",
     "static/media/KrisWebProfile.png": "/portfolio-react-app/static/media/KrisWebProfile.62f9e559c8d368687969.png",
     "static/media/me_and_luna.jpeg": "/portfolio-react-app/static/media/me_and_luna.88bff4bbf513fd19ab8e.jpeg",
@@ -21,11 +21,11 @@
     "static/media/js_icon.png": "/portfolio-react-app/static/media/js_icon.60dbbe1569571db1eda7.png",
     "static/media/python_icon.png": "/portfolio-react-app/static/media/python_icon.2352cac0787ede2aa30e.png",
     "index.html": "/portfolio-react-app/index.html",
-    "main.8f49c8a1.css.map": "/portfolio-react-app/static/css/main.8f49c8a1.css.map",
-    "main.2b783d67.js.map": "/portfolio-react-app/static/js/main.2b783d67.js.map"
+    "main.1d8b0bc7.css.map": "/portfolio-react-app/static/css/main.1d8b0bc7.css.map",
+    "main.2c679f1f.js.map": "/portfolio-react-app/static/js/main.2c679f1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f49c8a1.css",
-    "static/js/main.2b783d67.js"
+    "static/css/main.1d8b0bc7.css",
+    "static/js/main.2c679f1f.js"
   ]
 }
