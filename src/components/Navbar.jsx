@@ -3,44 +3,44 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/Kris-Logo-512x512.png'
-//import {Link} from 'react-scroll'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2C2C54] text-[#AAABB8]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2C2C54] text-[#AAABB8] z-50'>
       <div>
-        <img src={Logo} alt="Kris' Logo" style={{width: '70px'}}/>
+      <a href="/"><img src={Logo} alt="Kris' Logo" style={{width: '70px'}}/></a>
       </div>
 
       {/*Menu */}
-        {/* <ul className='hidden md:flex'>
+        <ul className='hidden md:flex'>
           <li>
-            <Link to="/hero" smooth={true} duration={500}>Home</Link>
+            <Link to="hero" smooth={true} duration={500}>Home</Link>
           </li>
           <li>
-            <Link to="/about" smooth={true} duration={500}>About</Link>
+            <Link to="about" smooth={true} duration={500}>About</Link>
           </li>
           <li>
-            <Link to="/skills" smooth={true} duration={500}>Skills</Link>
+            <Link to="skills" smooth={true} duration={500}>Skills</Link>
           </li>
           <li>
-            <Link to="/work" smooth={true} duration={500}>Work</Link>
+            <Link to="work" smooth={true} duration={500}>Work</Link>
           </li>
           <li>
-            <Link to="/achievements" smooth={true} duration={500}>Achievements</Link>
+            <Link to="achievements" smooth={true} duration={500}>Achievements</Link>
           </li>
           <li>
-            <Link to="/gallery" smooth={true} duration={500}>Gallery</Link>
+            <Link to="gallery" smooth={true} duration={500}>Gallery</Link>
           </li>
           <li>
-            <Link to="/contact" smooth={true} duration={500}>Contact</Link>
+            <Link to="contact" smooth={true} duration={500}>Contact</Link>
           </li>
-        </ul> */}
+        </ul>
         {/* * Static Nav items         */}
-         <ul className='hidden md:flex'>
+         {/* <ul className='hidden md:flex'>
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/skills">Skills</a></li>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <li><a href="/achievements">Achievements</a></li>
           <li><a href="/gallery">Gallery</a></li>
           <li><a href="/contact">Contact</a></li>
-        </ul>
+        </ul> */}
 
       {/*Hamburger Menu */}
         <div onClick={handleClick} className='md:hidden'>
@@ -56,17 +56,17 @@ const Navbar = () => {
         </div>
 
       {/*Mobile Menu */}
-        {/* <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#474787] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'><Link to="/hero" onClick={handleClick} smooth={true} duration={500}>Home</Link></li>
-            <li className='py-6 text-4xl'><Link to="/about" onClick={handleClick} smooth={true} duration={500}>About</Link></li>
-            <li className='py-6 text-4xl'><Link to="/skills" onClick={handleClick} smooth={true} duration={500}>Skills</Link></li>
-            <li className='py-6 text-4xl'><Link to="/work" onClick={handleClick} smooth={true} duration={500}>Work</Link></li>
-            <li className='py-6 text-4xl'><Link to="/achievements" onClick={handleClick} smooth={true} duration={500}>Achievements</Link></li>
-            <li className='py-6 text-4xl'><Link to="/gallery" onClick={handleClick} smooth={true} duration={500}>Gallery</Link></li>
-            <li className='py-6 text-4xl'><Link to="/contact" onClick={handleClick} smooth={true} duration={500}>Contact</Link></li>
-          </ul> */}
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#474787] flex flex-col justify-center items-center'}>
+            <li className='py-6 text-4xl'><Link to="hero" onClick={handleClick} smooth={true} duration={500}>Home</Link></li>
+            <li className='py-6 text-4xl'><Link to="about" onClick={handleClick} smooth={true} duration={500}>About</Link></li>
+            <li className='py-6 text-4xl'><Link to="skills" onClick={handleClick} smooth={true} duration={500}>Skills</Link></li>
+            <li className='py-6 text-4xl'><Link to="work" onClick={handleClick} smooth={true} duration={500}>Work</Link></li>
+            <li className='py-6 text-4xl'><Link to="achievements" onClick={handleClick} smooth={true} duration={500}>Achievements</Link></li>
+            <li className='py-6 text-4xl'><Link to="gallery" onClick={handleClick} smooth={true} duration={500}>Gallery</Link></li>
+            <li className='py-6 text-4xl'><Link to="contact" onClick={handleClick} smooth={true} duration={500}>Contact</Link></li>
+          </ul>
           {/* Static Mobile menu */}
-          <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#474787] flex flex-col justify-center items-center z-10'}>
+          {/* <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#474787] flex flex-col justify-center items-center z-10'}>
             <li className='py-6 text-4xl'><a href="/">Home</a></li>
             <li className='py-6 text-4xl'><a href="/about">About</a></li>
             <li className='py-6 text-4xl'><a href="/skills">Skills</a></li>
@@ -74,7 +74,7 @@ const Navbar = () => {
             <li className='py-6 text-4xl'><a href="/achievements">Achievements</a></li>
             <li className='py-6 text-4xl'><a href="/gallery">Gallery</a></li>
             <li className='py-6 text-4xl'><a href="/contact">Contact</a></li>
-          </ul>
+          </ul> */}
           
 
       {/*Social icons */}

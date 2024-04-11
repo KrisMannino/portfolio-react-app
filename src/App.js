@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 
 
-import {Routes, Route} from 'react-router-dom';
+//import {Routes, Route} from 'react-router-dom';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     <div>
       <Navbar />
 
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Hero /> } />
         <Route path='/about' element={<About /> } />
         <Route path='/skills' element={<Skills /> } />
@@ -24,16 +24,15 @@ function App() {
         <Route path='/achievements' element={<Achievements /> } />
         <Route path='/gallery' element={<Gallery /> } />
         <Route path='/contact' element={<Contact /> } />
-      </Routes>
+      </Routes> */}
       
-      
-      {/* <Hero />
+      <Hero />
       <About />
       <Skills />
       <Work />
       <Achievements />
       <Gallery />
-      <Contact /> */}
+      <Contact />
     </div>
   );
 }
