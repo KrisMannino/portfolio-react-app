@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div>
               <p>
-                I am a senior at <a href="wssu.edu">WSSU</a> with full-stack development skills. I am minoring in data science and am always expanding my knowledge in development by learnig different languages, frameworks, and system designs.
+                Curious and driven computer science professional with a strong foundation in both front-end and back-end development. Experienced in working with diverse teams on open-source projects, data science research, and industry internships. Adept at problem-solving and committed to continuous learning. Seeking opportunities to contribute to innovative projects and further develop my skills in a real-world working environment.
               </p>
             </div>
           </div>
