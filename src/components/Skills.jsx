@@ -7,7 +7,7 @@ import Python from '../assets/python_icon.png'
 import Github from '../assets/github_icon.png'
 import ReactImg from '../assets/react_icon.png'
 import Pandas from '../assets/pandas_icon.png'
-import Mongo from '../assets/mongodb_icon.png'
+// import Mongo from '../assets/mongodb_icon.png'
 import SQL from '../assets/sql_icon.svg'
 import Docker from '../assets/docker_icon.png'
 import Kubernetes from '../assets/kubernetes_icon.png'
@@ -26,14 +26,7 @@ const Skills = () => {
         </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-              <div className='shadow-md shadow-[#EB4E20] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
-                <p className='my-4'>HTML</p>
-              </div>
-              <div className='shadow-md shadow-[#ECD63F] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={JavaScript} alt="JavaScript icon" />
-                <p className='my-4'>JavaScript</p>
-              </div>
+
               <div className='shadow-md shadow-[#F48518] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Java} alt="Java icon" />
                 <p className='my-4'>Java</p>
@@ -46,6 +39,14 @@ const Skills = () => {
                 <img className='w-20 mx-auto' src={Github} alt="Github icon" />
                 <p className='my-4'>Github</p>
               </div>
+              <div className='shadow-md shadow-[#EB4E20] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={HTML} alt="HTML icon" />
+                <p className='my-4'>HTML</p>
+              </div>
+              <div className='shadow-md shadow-[#ECD63F] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={JavaScript} alt="JavaScript icon" />
+                <p className='my-4'>JavaScript</p>
+              </div>
               <div className='shadow-md shadow-[#53D2FA] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={ReactImg} alt="React icon" />
                 <p className='my-4'>React.js</p>
@@ -54,10 +55,7 @@ const Skills = () => {
                 <img className='w-20 mx-auto' src={Pandas} alt="Pandas icon" />
                 <p className='my-4'>Pandas</p>
               </div>
-              <div className='shadow-md shadow-[#429E32] hover:scale-110 duration-500'>
-                <img className='w-20 mx-auto' src={Mongo} alt="MongoDB icon" />
-                <p className='my-4'>MongoDB</p>
-              </div>
+
               <div className='shadow-md shadow-[#336791] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={SQL} alt="SQL icon" />
                 <p className='my-4'>SQL</p>

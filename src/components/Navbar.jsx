@@ -77,34 +77,35 @@ const Navbar = () => {
           </ul> */}
           
 
-      {/*Social icons */}
-        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-          <ul>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0072b1]'>
+ 
+        {/*Social icons */}
+        <div className='flex fixed md:flex-row md:bottom-0 md:left-0 md:right-0 md:top-auto lg:flex-col lg:top-[35%] lg:left-0 lg:right-auto lg:bottom-auto flex-row bottom-0 left-0 right-0'>
+          
+          <ul className='flex flex-row justify-center w-full lg:flex-col lg:w-auto'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-0 hover:mb-[-10px] lg:ml-[-100px] lg:hover:ml-[-10px] lg:hover:mb-0 duration-300 bg-[#0072b1]'>
               <a href="https://www.linkedin.com/in/krismannino/" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 LinkedIn <FaLinkedin size={30}/>
-                </a>
+              </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[black]'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-0 hover:mb-[-10px] lg:ml-[-100px] lg:hover:ml-[-10px] lg:hover:mb-0 duration-300 bg-[black]'>
               <a href="https://github.com/KrisMannino" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 Github <FaGithub size={30}/>
-                </a>
+              </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#DFFF00]'>
-              <a href="mailto:krismannino@gmail.com?subject=I clicked the email link on your site=Hello, I saw your website and wanted to get in touch." className='flex justify-between items-center w-full text-[#2C2C54]'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-0 hover:mb-[-10px] lg:ml-[-100px] lg:hover:ml-[-10px] lg:hover:mb-0 duration-300 bg-[#DFFF00]'>
+              <Link to="contact" onClick={() => setNav(false)} smooth={true} duration={500} className='flex justify-between items-center w-full text-[#ECECEC]'>
                 Email <HiOutlineMail size={30}/>
-                </a>
+              </Link>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#FF6B6B]'>
-              <a href="/contact" className='flex justify-between items-center w-full text-[#ECECEC]'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-0 hover:mb-[-10px] lg:ml-[-100px] lg:hover:ml-[-10px] lg:hover:mb-0 duration-300 bg-[#FF6B6B]'>
+              <Link to="contact" onClick={() => setNav(false)} smooth={true} duration={500} className='flex justify-between items-center w-full text-[#ECECEC]'>
                 Resume <BsFillPersonLinesFill size={30}/>
-                </a>
+              </Link>
             </li>
           </ul>
         </div>
 
-
-        </div>
+      </div>
   )
 }
 
