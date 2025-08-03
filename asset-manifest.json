@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9a6351f6.css",
-    "main.js": "./static/js/main.836c36f2.js",
+    "main.css": "./static/css/main.22e694cf.css",
+    "main.js": "./static/js/main.55476b16.js",
     "static/media/2024careerExpoHeadshot.png": "./static/media/2024careerExpoHeadshot.c10dcb865b5b8a919b47.png",
     "static/media/KrisWebProfile.png": "./static/media/KrisWebProfile.62f9e559c8d368687969.png",
     "static/media/me_and_luna.jpeg": "./static/media/me_and_luna.88bff4bbf513fd19ab8e.jpeg",
@@ -21,11 +21,11 @@
     "static/media/js_icon.png": "./static/media/js_icon.60dbbe1569571db1eda7.png",
     "static/media/python_icon.png": "./static/media/python_icon.2352cac0787ede2aa30e.png",
     "index.html": "./index.html",
-    "main.9a6351f6.css.map": "./static/css/main.9a6351f6.css.map",
-    "main.836c36f2.js.map": "./static/js/main.836c36f2.js.map"
+    "main.22e694cf.css.map": "./static/css/main.22e694cf.css.map",
+    "main.55476b16.js.map": "./static/js/main.55476b16.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a6351f6.css",
-    "static/js/main.836c36f2.js"
+    "static/css/main.22e694cf.css",
+    "static/js/main.55476b16.js"
   ]
 }
