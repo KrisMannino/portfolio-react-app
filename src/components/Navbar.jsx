@@ -32,9 +32,9 @@ const Navbar = () => {
           <li>
             <Link to="achievements" smooth={true} duration={500}>Achievements</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="gallery" smooth={true} duration={500}>Gallery</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="contact" smooth={true} duration={500}>Contact</Link>
           </li>

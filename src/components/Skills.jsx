@@ -8,6 +8,9 @@ import Github from '../assets/github_icon.png'
 import ReactImg from '../assets/react_icon.png'
 import Pandas from '../assets/pandas_icon.png'
 import Mongo from '../assets/mongodb_icon.png'
+import SQL from '../assets/sql_icon.svg'
+import Docker from '../assets/docker_icon.png'
+import Kubernetes from '../assets/kubernetes_icon.png'
 
 
 const Skills = () => {
@@ -19,7 +22,7 @@ const Skills = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center'>
         <div className='p-4'>
           <p className='text-4xl font-bold inline border-b-4 border-[#3a98a5] '>Skills</p>
-          <p className='py-4 '>Some of the technologies I have worked with</p>
+          <p className='py-4 '>Classically trained in Java, my data science, research, and data engineering positions has grown my proficiency in python as of late.</p>
         </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
@@ -54,6 +57,20 @@ const Skills = () => {
               <div className='shadow-md shadow-[#429E32] hover:scale-110 duration-500'>
                 <img className='w-20 mx-auto' src={Mongo} alt="MongoDB icon" />
                 <p className='my-4'>MongoDB</p>
+              </div>
+              <div className='shadow-md shadow-[#336791] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={SQL} alt="SQL icon" />
+                <p className='my-4'>SQL</p>
+              </div>
+
+              <div className='shadow-md shadow-[#2496ED] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Docker} alt="Docker icon" />
+                <p className='my-4'>Docker</p>
+              </div>
+
+              <div className='shadow-md shadow-[#326CE5] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={Kubernetes} alt="Kubernetes icon" />
+                <p className='my-4'>Kubernetes</p>
               </div>
 
             </div>
