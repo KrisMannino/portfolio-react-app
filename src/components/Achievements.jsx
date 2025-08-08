@@ -1,6 +1,7 @@
 import React from 'react';
 import cADSPoster from '../assets/CADSposter.png'
 import CADSXLPoster from '../assets/CADS_Poster.jpeg'
+import jplHeadshot from '../assets/jpl_headshot.png'
 
 const Achievements = () => {
   return (
@@ -13,17 +14,29 @@ const Achievements = () => {
 
         <div className='w-full grid grid-cols-3 gap-4 text-center py-8'>
           {/* First Item */}
-          <div className='col-span-2 text-left flex flex-col justify-center'>
+                    <div className='col-span-2 text-left flex flex-col justify-center'>
+            <h3 className='text-[#fc3c23] text-4xl font-bold'>NASA Jet Propulsion Laboratory Internship</h3>
+            <p className='mt-2'>Radar Science and Engineering Group, Summer 2025.</p>
+            <p className='mt-2'>Winston-Salem State University graduate student Kris Mannino has been selected for a prestigious summer internship at NASA’s Jet Propulsion Laboratory (JPL), managed by the California Institute of Technology (Caltech), in Pasadena, Calif.</p>
+            <h3 className='text-[#7DF9FF] text-2xl font-bold'>
+              <a href="https://www.wssu.edu/news/articles/2024/01/kris-mannino-internship-at-nasa-jpl.html">Read more about it in the WSSU article</a>
+              </h3>
+          </div>
+          <div className='flex justify-center items-center mb-8'>
+            <a href={jplHeadshot}><img className='w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500' src={jplHeadshot} alt="WSSU Article Kris Mannino" /></a>
+          </div>
+ 
+          {/* Second Item */}
+         <div className='col-span-2 text-left flex flex-col justify-center'>
             <h3 className='text-[#7DF9FF] text-4xl font-bold'>Scholarship Day | Poster competition</h3>
             <p className='mt-2'>Awarded Third Place for the non-Biological Sciences category in the Poster competition on Scholarship day at <a href="wssu.edu">WSSU</a>, Spring 2023.</p>
           </div>
           <div className='flex justify-center items-center mb-8'>
             <a href={CADSXLPoster}><img className='w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500' src={cADSPoster} alt="CADS Poster" /></a>
           </div>
-
-          {/* Second Item */}
+          {/* Third Item */}
           <div className='col-span-2 text-left flex flex-col justify-center'>
-            <h3 className='text-[#7DF9FF] text-4xl font-bold'>Coming Soon...</h3>
+            <h3 className='text-[#7DF9FF] text-4xl font-bold'>More to come...</h3>
             <p className='mt-2'>Click back in to see more of my awards, certifications, and other happenings</p>
           </div>
           <div className='flex justify-center items-center mb-8'>
