@@ -5,7 +5,8 @@ import jplHeadshot from '../assets/jpl_headshot.png'
 
 const Achievements = () => {
   return (
-    <div name='achievements' className='w-full h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
+    // <div name='achievements' className='w-full h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
+      <div name='achievements' className='w-full min-h-screen sm:h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='p-4'>
           <p className='text-4xl font-bold inline border-b-4 border-[#3a98a5]'>Achievements</p>
@@ -16,11 +17,12 @@ const Achievements = () => {
           {/* First Item */}
                     <div className='col-span-2 text-left flex flex-col justify-center'>
             <h3 className='text-[#fc3c23] text-4xl font-bold'>NASA Jet Propulsion Laboratory Internship</h3>
-            <p className='mt-2'>Radar Science and Engineering Group, Summer 2025.</p>
-            <p className='mt-2'>Winston-Salem State University graduate student Kris Mannino has been selected for a prestigious summer internship at NASA’s Jet Propulsion Laboratory (JPL), managed by the California Institute of Technology (Caltech), in Pasadena, Calif.</p>
-            <h3 className='text-[#7DF9FF] text-2xl font-bold'>
+            <h3 className='text-[#7DF9FF] text-1xl font-bold'>
               <a href="https://www.wssu.edu/news/articles/2024/01/kris-mannino-internship-at-nasa-jpl.html">Read more about it in the WSSU article</a>
               </h3>
+            <p className='mt-2'>Radar Science and Engineering Group, Summer 2025.</p>
+            <p className='mt-2'>Winston-Salem State University graduate student Kris Mannino has been selected for a prestigious summer internship at NASA’s Jet Propulsion Laboratory (JPL), managed by the California Institute of Technology (Caltech), in Pasadena, Calif.</p>
+            
           </div>
           <div className='flex justify-center items-center mb-8'>
             <a href={jplHeadshot}><img className='w-auto h-auto shadow-md shadow-[#00A7E1] hover:scale-110 duration-500' src={jplHeadshot} alt="WSSU Article Kris Mannino" /></a>

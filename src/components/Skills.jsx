@@ -15,7 +15,8 @@ import Kubernetes from '../assets/kubernetes_icon.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
+    // <div name='skills' className='w-full h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
+      <div name='skills' className='w-full min-h-screen sm:h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
         
 
         {/**Container div */}
