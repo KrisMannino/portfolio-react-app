@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.66a58591.css",
-    "main.js": "/static/js/main.89a39095.js",
+    "main.css": "/static/css/main.2a495b6a.css",
+    "main.js": "/static/js/main.891514f7.js",
     "static/media/KrisWebProfile.png": "/static/media/KrisWebProfile.62f9e559c8d368687969.png",
     "static/media/Sting_Matching_Report.pdf": "/static/media/Sting_Matching_Report.fd2dbe17b7991eedf379.pdf",
+    "static/media/ieee_wildfire.png": "/static/media/ieee_wildfire.bf9d756d1de205b703d1.png",
     "static/media/CADS_Poster.jpeg": "/static/media/CADS_Poster.5afeeecc99ea9620b7e1.jpeg",
     "static/media/Kris-Logo-512x512.png": "/static/media/Kris-Logo-512x512.fb41f29a3c4d414985d9.png",
     "static/media/CADSposter.png": "/static/media/CADSposter.b59b6e42a6753b874c91.png",
@@ -18,11 +19,11 @@
     "static/media/python_icon.png": "/static/media/python_icon.2352cac0787ede2aa30e.png",
     "static/media/sql_icon.svg": "/static/media/sql_icon.f7e8fafcf677793d2eaf1a1704a90be8.svg",
     "index.html": "/index.html",
-    "main.66a58591.css.map": "/static/css/main.66a58591.css.map",
-    "main.89a39095.js.map": "/static/js/main.89a39095.js.map"
+    "main.2a495b6a.css.map": "/static/css/main.2a495b6a.css.map",
+    "main.891514f7.js.map": "/static/js/main.891514f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.66a58591.css",
-    "static/js/main.89a39095.js"
+    "static/css/main.2a495b6a.css",
+    "static/js/main.891514f7.js"
   ]
 }
