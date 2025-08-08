@@ -21,7 +21,7 @@ const Achievements = () => {
               <a href="https://www.wssu.edu/news/articles/2024/01/kris-mannino-internship-at-nasa-jpl.html">Read more about it in the WSSU article</a>
               </h3>
             <p className='mt-2'>Radar Science and Engineering Group, Summer 2025.</p>
-            <p className='mt-2'>Winston-Salem State University graduate student Kris Mannino has been selected for a prestigious summer internship at NASA’s Jet Propulsion Laboratory (JPL), managed by the California Institute of Technology (Caltech), in Pasadena, Calif.</p>
+            <p className='mt-2'>"Winston-Salem State University graduate student Kris Mannino has been selected for a prestigious summer internship at NASA’s Jet Propulsion Laboratory (JPL), managed by the California Institute of Technology (Caltech), in Pasadena, Calif." - wssu.edu </p>
             
           </div>
           <div className='flex justify-center items-center mb-8'>
