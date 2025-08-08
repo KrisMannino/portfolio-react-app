@@ -16,7 +16,7 @@ const Achievements = () => {
         <div className='w-full grid grid-cols-3 gap-4 text-center py-8'>
           {/* First Item */}
                     <div className='col-span-2 text-left flex flex-col justify-center'>
-            <h3 className='text-[#fc3c23] text-4xl font-bold'>NASA Jet Propulsion Laboratory Internship</h3>
+            <h3 className='text-[#3a98a5] text-4xl font-bold'>NASA Jet Propulsion Laboratory Internship</h3>
             <h3 className='text-[#7DF9FF] text-1xl font-bold'>
               <a href="https://www.wssu.edu/news/articles/2024/01/kris-mannino-internship-at-nasa-jpl.html">Read more about it in the WSSU article</a>
               </h3>
