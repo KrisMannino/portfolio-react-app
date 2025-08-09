@@ -44,14 +44,14 @@ const Work = () => {
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
                       <span className='text-2xl font-bold text-[#ECECEC]'>
-                        Pandas Project with IMDB dataset
+                        Reactive Gallery page with PHP
                       </span>
                       <div>
-                          <a href="/">
+                          {/* <a href="/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Demo</button>
-                          </a>
+                          </a> */}
 
-                          <a href="/">
+                          <a href="https://github.com/KrisMannino/GalleryPage">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Code</button>
                           </a>
                       </div>
@@ -86,9 +86,9 @@ const Work = () => {
                         Portfolio site with React.js and Tailwind.css
                       </span>
                       <div>
-                          <a href="/">
+                          {/* <a href="/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Demo</button>
-                          </a>
+                          </a> */}
 
                           <a href="https://github.com/KrisMannino/portfolio-react-app">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Code</button>
@@ -115,19 +115,19 @@ const Work = () => {
                     </div>{/**close  Hover----------*/}
 
               </div>{/**Close Project card---------- */}
-              {/**PRoject card */}
+              {/* *PRoject card */}
               <div style={{backgroundImage: `url(${Project1})`}} 
               className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
                       <span className='text-2xl font-bold text-[#ECECEC]'>
-                        Pandas Project with IMDB dataset
+                        Reactive Gallery page with PHP
                       </span>
                       <div>
-                          <a href="/">
+                          {/* <a href="/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Demo</button>
-                          </a>
+                          </a> */}
 
                           <a href="/">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Code</button>

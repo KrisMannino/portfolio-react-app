@@ -16,9 +16,9 @@ const Achievements = () => {
         <div className='w-full grid grid-cols-3 gap-4 text-center py-8'>
           {/* First Item */}
                     <div className='col-span-2 text-left flex flex-col justify-center'>
-            <h3 className='text-[#3a98a5] text-4xl font-bold'>NASA Jet Propulsion Laboratory Internship</h3>
+            <h3 className='text-[#7DF9FF] text-4xl font-bold'><a href="https://www.wssu.edu/about/news/articles/2025/05/wssu-research-experience-leads-student-to-prestigious-nasa-internship.html">NASA Jet Propulsion Laboratory Internship</a></h3>
             <h3 className='text-[#7DF9FF] text-1xl font-bold'>
-              <a href="https://www.wssu.edu/news/articles/2024/01/kris-mannino-internship-at-nasa-jpl.html">Read more about it in the WSSU article</a>
+              <a href="https://www.wssu.edu/about/news/articles/2025/05/wssu-research-experience-leads-student-to-prestigious-nasa-internship.html">Read more about it in the WSSU article</a>
               </h3>
             <p className='mt-2'>Radar Science and Engineering Group, Summer 2025.</p>
             <p className='mt-2'>"Winston-Salem State University graduate student Kris Mannino has been selected for a prestigious summer internship at NASA’s Jet Propulsion Laboratory (JPL), managed by the California Institute of Technology (Caltech), in Pasadena, Calif." - wssu.edu </p>
