@@ -9,7 +9,7 @@ const Contact = () => {
             
             <p className='text-[#AAABB8] text-4xl font-bold inline border-b-4 border-[#3a98a5]'>Contact</p>
             <p className='text-[#AAABB8] py-4 text-3xl'>Submit the form or shoot me an email for a resume</p>
-          <p className='text-[#7DF9FF] text-4xl font-bold'>KrisMannino@gmail.com</p>
+          <p className='text-[#7DF9FF] text-2xl font-bold'>KrisMannino@gmail.com</p>
           </div>
           <input type="text" placeholder='Name' name='name' className='bg-[#ECECEC] p-2'/>
           <input type="text" placeholder='Email' name='email' className='my-4 bg-[#ECECEC] p-2'/>
