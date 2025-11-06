@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.af848c44.css",
-    "main.js": "/static/js/main.8a3d672d.js",
-    "static/media/KrisWebProfile.png": "/static/media/KrisWebProfile.62f9e559c8d368687969.png",
+    "main.css": "/static/css/main.b6bf7fc6.css",
+    "main.js": "/static/js/main.4f99bba9.js",
+    "static/media/UNCDSD_KM_image_XL.png": "/static/media/UNCDSD_KM_image_XL.70ce8aafd4889966443f.png",
     "static/media/jpl_headshot.png": "/static/media/jpl_headshot.8035b0d698577083912b.png",
     "static/media/Sting_Matching_Report.pdf": "/static/media/Sting_Matching_Report.fd2dbe17b7991eedf379.pdf",
+    "static/media/Graduate_Profile_Session_20250912_kris_mannino_NO_GLASSES_500x500 copy.png": "/static/media/Graduate_Profile_Session_20250912_kris_mannino_NO_GLASSES_500x500 copy.bf02123b378e1d0ced0e.png",
     "static/media/ieee_wildfire.png": "/static/media/ieee_wildfire.bf9d756d1de205b703d1.png",
     "static/media/CADS_Poster.jpeg": "/static/media/CADS_Poster.5afeeecc99ea9620b7e1.jpeg",
     "static/media/Kris-Logo-512x512.png": "/static/media/Kris-Logo-512x512.fb41f29a3c4d414985d9.png",
+    "static/media/UNCDSD_KM_image.png": "/static/media/UNCDSD_KM_image.4afdb9b7338980619f7c.png",
     "static/media/CADSposter.png": "/static/media/CADSposter.b59b6e42a6753b874c91.png",
     "static/media/portfolio_site.png": "/static/media/portfolio_site.6976b5ca409c5965d07d.png",
     "static/media/PaperImg.png": "/static/media/PaperImg.0d5c55e58b21e27283b9.png",
@@ -20,11 +22,11 @@
     "static/media/python_icon.png": "/static/media/python_icon.2352cac0787ede2aa30e.png",
     "static/media/sql_icon.svg": "/static/media/sql_icon.f7e8fafcf677793d2eaf1a1704a90be8.svg",
     "index.html": "/index.html",
-    "main.af848c44.css.map": "/static/css/main.af848c44.css.map",
-    "main.8a3d672d.js.map": "/static/js/main.8a3d672d.js.map"
+    "main.b6bf7fc6.css.map": "/static/css/main.b6bf7fc6.css.map",
+    "main.4f99bba9.js.map": "/static/js/main.4f99bba9.js.map"
   },
   "entrypoints": [
-    "static/css/main.af848c44.css",
-    "static/js/main.8a3d672d.js"
+    "static/css/main.b6bf7fc6.css",
+    "static/js/main.4f99bba9.js"
   ]
 }
