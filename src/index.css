@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Updated palette from user */
+  --bg-900: #161C2E;
+  --bg-800: #262E43;
+  --bg-700: #374054;
+  --muted:  #A8B1C9;
+  --accent: #8FFF0A;
+  --white: #FFFFFF;
+  /* Map common tokens used in components */
+  --page-bg: #A8B1C9; /* user requested background */
+  --blue: var(--bg-700);
+  --highlight: var(--accent);
+  --text-primary: #FFFFFF; /* primary text */
+  --text-muted: #374054; /* muted text color */
+}
+
+/* Semantic text utilities used by components */
+.text-primary { color: var(--text-primary); }
+.text-muted { color: var(--muted); }
+.text-accent { color: var(--highlight); }
+.bg-page { background-color: var(--page-bg); }
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 @layer base {
@@ -25,14 +47,14 @@
 .content-div:hover {
   background-image: linear-gradient(
       to right,
-      rgba(71, 71, 135, 0.8),
-      hsla(75.38, 100%, 45.88%, 0.8) 
+      rgba(38, 46, 67, 0.8),
+      hsla(87, 100%, 45.88%, 0.8) 
   )!important;
 }
 
 .loader {
-  border: 16px solid #2C2C54;
-  border-top: 16px solid #FF6B6B; 
+  border: 16px solid #161C2E;
+  border-top: 16px solid #8FFF0A; 
   border-radius: 50%;
   width: 120px;
   height: 120px;

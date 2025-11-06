@@ -7,32 +7,26 @@ import ieeePoster from '../assets/ieee_wildfire.png'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen pt-20 md:pt-0 bg-[#474787] text-[#AAABB8]'>
+  <div name='work' className='w-full md:h-screen pt-20 md:pt-0' style={{ backgroundColor: 'var(--page-bg)', color: 'var(--text-muted)' }}>
         
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-              <p className='text-4xl font-bold inline border-b-4 border-[#3a98a5]'>Work</p>
+              <p className='text-4xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--blue)', color: 'var(--bg-900)' }}>Work</p>
               <p className='py-6'>Here are some of my latest projects</p>
             </div>
-            <div className="w-full bg-[#474787] text-[#AAABB8] py-8 mb-8 flex items-center justify-center">
-              <span className="text-3xl md:text-5xl font-extrabold text-left w-full" >
-                <a href="https://ieeexplore.ieee.org/document/10971599">
-                  Pre-Ignition Wildfire Burn Severity Modeling with Polarimetric UAVSAR Data and Machine Learning
-                  <span className="text-[#3a98a5]"> (IEEE Link)</span>
-                </a>
-              </span>
-            </div>
+            {/** IEEE Poster as a project-style card */}
             <div className="w-full flex justify-center mb-8">
-
-              <div className="w-full flex justify-center mb-8">
-                <a href="https://ieeexplore.ieee.org/document/10971599">
-                <img
-                  src={ieeePoster}
-                  alt="IEEE Wildfire Project Poster"
-                  className="rounded-lg shadow-lg w-full max-w-3xl object-cover"
-                />
-              </a>
-            </div>
+              <div
+                style={{ backgroundImage: `url(${ieeePoster})` }}
+                className="shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div w-full max-w-3xl h-[380px] bg-center bg-cover"
+              >
+                <div className="opacity-0 group-hover:opacity-100 px-4 text-center">
+                  <a href="https://ieeexplore.ieee.org/document/10971599" target="_blank" rel="noopener noreferrer" className="text-2xl font-bold px-3 py-2" style={{ color: 'var(--text-primary)' }}>
+                    Pre-Ignition Wildfire Burn Severity Modeling with Polarimetric UAVSAR Data and Machine Learning
+                    <span style={{ color: 'var(--blue)' }}> (IEEE Link)</span>
+                  </a>
+                </div>
+              </div>
             </div>
             {/** Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -43,15 +37,16 @@ const Work = () => {
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
-                      <span className='text-2xl font-bold text-[#ECECEC]'>
+                      <span className='text-2xl font-bold' style={{ color: 'var(--text-primary)' }}>
                         Reactive Gallery page with PHP
                       </span>
                       <div>
-                          {/* <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Demo</button>
+                          {/* Demo placeholder - update href when live */}
+                          {/* <a href="#">
+                            <button className='text-center rounded-lg px-4 py-3 m-2' style={{ backgroundColor: '#AAABB8', color: '#2C2C54', fontWeight: 700, fontSize: '1.125rem' }}>Demo</button>
                           </a> */}
 
-                          <a href="https://github.com/KrisMannino/GalleryPage">
+                          <a href="https://github.com/KrisMannino/GalleryPage" target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Code</button>
                           </a>
                       </div>
@@ -69,7 +64,7 @@ const Work = () => {
                         String Matching Algorithms research 
                       </span>
                       <div>
-                          <a href={sAlgorithms}>
+                          <a href={sAlgorithms} target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>View</button>
                           </a>
                       </div>
@@ -86,11 +81,12 @@ const Work = () => {
                         Portfolio site with React.js and Tailwind.css
                       </span>
                       <div>
-                          {/* <a href="/">
+                          {/* Demo placeholder - update href when live */}
+                          {/* <a href="#">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Demo</button>
                           </a> */}
 
-                          <a href="https://github.com/KrisMannino/portfolio-react-app">
+                          <a href="https://github.com/KrisMannino/portfolio-react-app" target="_blank" rel="noopener noreferrer">
                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Code</button>
                           </a>
                       </div>
@@ -98,9 +94,9 @@ const Work = () => {
 
               </div>{/**Close Project card---------- */}
 
-              {/**PRoject card */}
+              {/**PRoject card (hidden placeholder 1) */}
               <div style={{backgroundImage: `url(${Paper1})`}} 
-              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
+              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
@@ -108,16 +104,15 @@ const Work = () => {
                         String Matching Algorithms research 
                       </span>
                       <div>
-                          <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>View</button>
-                          </a>
+                          <button aria-disabled className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>View</button>
                       </div>
                     </div>{/**close  Hover----------*/}
 
               </div>{/**Close Project card---------- */}
-              {/* *PRoject card */}
+
+              {/**PRoject card (hidden placeholder 2) */}
               <div style={{backgroundImage: `url(${Project1})`}} 
-              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
+              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
@@ -125,21 +120,17 @@ const Work = () => {
                         Reactive Gallery page with PHP
                       </span>
                       <div>
-                          {/* <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Demo</button>
-                          </a> */}
-
-                          <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Code</button>
-                          </a>
+                          {/* Demo placeholder - update href when live */}
+                          <button aria-disabled className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Demo</button>
+                          <button aria-disabled className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>Code</button>
                       </div>
                     </div>{/**close  Hover----------*/}
 
               </div>{/**Close Project card---------- */}
 
-              {/**PRoject card */}
+              {/**PRoject card (hidden placeholder 3) */}
               <div style={{backgroundImage: `url(${Paper1})`}} 
-              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md flex justify-center items-center mx-auto content-div'>
+              className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 px-4' >
@@ -147,9 +138,7 @@ const Work = () => {
                         String Matching Algorithms research
                       </span>
                       <div>
-                          <a href="/">
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>View</button>
-                          </a>
+                          <button aria-disabled className='text-center rounded-lg px-4 py-3 m-2 bg-[#AAABB8] text-[#2C2C54] font-bold text-lg'>View</button>
                       </div>
                     </div>{/**close  Hover----------*/}
 

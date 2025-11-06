@@ -37,12 +37,12 @@ const Gallery = () => {
   }
 
   return (
-    <div name='gallery' className='w-full md:h-screen bg-[#474787] text-[#AAABB8]'>
+  <div name='gallery' className='w-full md:h-screen' style={{ backgroundColor: 'var(--page-bg)', color: 'var(--text-muted)' }}>
         
         {/* Gallery heading */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-20'>
             <div className='pb-8'>
-              <p className='text-4xl font-bold inline border-b-4 border-[#3a98a5]'>Gallery</p>
+              <p className='text-4xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--blue)' }}>Gallery</p>
               <p className='py-6'>Some places I have popped up</p>
             </div>
         
@@ -53,23 +53,25 @@ const Gallery = () => {
             <div style={{backgroundImage: `url(${images[currentIndex].src})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'> </div>
 
             {/* Left Arrow */}
-            <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 left-5 text-2xl rounded-full p-2 cursor-pointer bg-[#AD5E99]/40 text-[#AAABB8]'>
-              <BsChevronCompactLeft onClick={prevImage} size={30}/>
-            </div>
+            <button aria-label="Previous image" onClick={prevImage} className='hidden group-hover:block absolute top-[50%] -translate-x-0 left-5 text-2xl rounded-full p-2' style={{ backgroundColor: 'rgba(173,89,153,0.4)', color: 'var(--text-muted)' }}>
+              <BsChevronCompactLeft size={30}/>
+            </button>
             {/* Right Arrow */}
-            <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 right-5 text-2xl rounded-full p-2 cursor-pointer bg-[#AD5E99]/30 text-[#AAABB8]'>
-              <BsChevronCompactRight onClick={nextImage} size={30}/>
-            </div>
+            <button aria-label="Next image" onClick={nextImage} className='hidden group-hover:block absolute top-[50%] -translate-x-0 right-5 text-2xl rounded-full p-2' style={{ backgroundColor: 'rgba(173,89,153,0.3)', color: 'var(--text-muted)' }}>
+              <BsChevronCompactRight size={30}/>
+            </button>
 
             {/* Dots container */}
             <div className='flex top-4 justify-center'>
               {images.map((image, imageIndex) => (
-                <div 
-                  key={imageIndex} 
+                <button
+                  key={imageIndex}
                   onClick={() => goToImage(imageIndex)}
-                  className='text-4xl'>
+                  aria-label={`Go to image ${imageIndex + 1}`}
+                  className='text-4xl'
+                >
                   <RxDotFilled />
-                </div>
+                </button>
               ))}
             </div>
 

@@ -10,9 +10,9 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2C2C54] text-[#AAABB8] z-50'>
+  <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-primary z-50' style={{ backgroundColor: 'var(--bg-900)' }}>
       <div>
-      <a href="/"><img src={Logo} alt="Kris' Logo" style={{width: '70px'}}/></a>
+  <a href="/"><img src={Logo} alt="Kris&#39; Logo" style={{width: '70px'}}/></a>
       </div>
 
       {/*Menu */}
@@ -50,13 +50,13 @@ const Navbar = () => {
           <li><a href="/contact">Contact</a></li>
         </ul> */}
 
-      {/*Hamburger Menu */}
-        <div onClick={handleClick} className='md:hidden'>
+        {/*Hamburger Menu */}
+        <button onClick={handleClick} aria-label={nav ? 'Close menu' : 'Open menu'} className='md:hidden'>
           {!nav ? <FaBars/> : <FaTimes/>}
-        </div>
+        </button>
 
       {/*Mobile Menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#474787] flex flex-col justify-center items-center'}>
+  <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center'} style={{ backgroundColor: 'var(--page-bg)' }}>
             <li className='py-6 text-4xl'><Link to="hero" onClick={handleClick} smooth={true} duration={500}>Home</Link></li>
             <li className='py-6 text-4xl'><Link to="about" onClick={handleClick} smooth={true} duration={500}>About</Link></li>
             <li className='py-6 text-4xl'><Link to="skills" onClick={handleClick} smooth={true} duration={500}>Skills</Link></li>
@@ -83,24 +83,24 @@ const Navbar = () => {
           
           <ul className='flex flex-row justify-center w-full lg:flex-col lg:w-auto'>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-0 hover:mb-[-10px] lg:ml-[-100px] lg:hover:ml-[-10px] lg:hover:mb-0 duration-300 bg-[#0072b1]'>
-              <a href="https://www.linkedin.com/in/krismannino/" className='flex justify-between items-center w-full text-[#ECECEC]'>
+              <a href="https://www.linkedin.com/in/krismannino/" target="_blank" rel="noopener noreferrer" aria-label="Kris Mannino LinkedIn" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 LinkedIn <FaLinkedin size={30}/>
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-0 hover:mb-[-10px] lg:ml-[-100px] lg:hover:ml-[-10px] lg:hover:mb-0 duration-300 bg-[black]'>
-              <a href="https://github.com/KrisMannino" className='flex justify-between items-center w-full text-[#ECECEC]'>
+              <a href="https://github.com/KrisMannino" target="_blank" rel="noopener noreferrer" aria-label="Kris Mannino GitHub" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 Github <FaGithub size={30}/>
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-0 hover:mb-[-10px] lg:ml-[-100px] lg:hover:ml-[-10px] lg:hover:mb-0 duration-300 bg-[#DFFF00]'>
-              <Link to="contact" onClick={() => setNav(false)} smooth={true} duration={500} className='flex justify-between items-center w-full text-[#ECECEC]'>
+              <button onClick={() => { setNav(false); }} aria-label="Email link" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 Email <HiOutlineMail size={30}/>
-              </Link>
+              </button>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-0 hover:mb-[-10px] lg:ml-[-100px] lg:hover:ml-[-10px] lg:hover:mb-0 duration-300 bg-[#FF6B6B]'>
-              <Link to="contact" onClick={() => setNav(false)} smooth={true} duration={500} className='flex justify-between items-center w-full text-[#ECECEC]'>
+              <button onClick={() => { setNav(false); }} aria-label="Resume link" className='flex justify-between items-center w-full text-[#ECECEC]'>
                 Resume <BsFillPersonLinesFill size={30}/>
-              </Link>
+              </button>
             </li>
           </ul>
         </div>

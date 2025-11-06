@@ -16,13 +16,13 @@ import Kubernetes from '../assets/kubernetes_icon.png'
 const Skills = () => {
   return (
     // <div name='skills' className='w-full h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
-      <div name='skills' className='w-full min-h-screen sm:h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
+  <div name='skills' className='w-full min-h-screen sm:h-screen mx-auto pt-20' style={{ backgroundColor: 'var(--page-bg)', color: 'var(--text-muted)' }}>
         
 
         {/**Container div */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center'>
         <div className='p-4'>
-          <p className='text-4xl font-bold inline border-b-4 border-[#3a98a5] '>Skills</p>
+          <p className='text-4xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--bg-900)', color: 'var(--bg-900)' }}>Skills</p>
           <p className='py-4 '>Classically trained in Java, my data science, research, and data engineering positions has grown my proficiency in python as of late.</p>
         </div>
 

@@ -3,18 +3,18 @@ import React from 'react'
 const Contact = () => {
   return (
     
-    <div name='contact' className='w-full min-h-screen sm:h-screen bg-[#474787] flex justify-center items-center p-4 pt-20 pb-20'>
+  <div name='contact' className='w-full min-h-screen sm:h-screen flex justify-center items-center p-4 pt-20 pb-20' style={{ backgroundColor: 'var(--page-bg)' }}>
         <form method='POST' action="https://getform.io/f/jbwljmya" className='flex flex-col max-w-[600px] w-full'>
           <div className='pb-8'>
             
-            <p className='text-[#AAABB8] text-4xl font-bold inline border-b-4 border-[#3a98a5]'>Contact</p>
-            <p className='text-[#AAABB8] py-4 text-3xl'>Submit the form or shoot me an email for a resume</p>
-          <p className='text-[#7DF9FF] text-2xl font-bold'>KrisMannino@gmail.com</p>
+            <p className='text-[#161C2E] text-4xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--blue)' }}>Contact</p>
+               <p className='py-4 text-3xl' style={{ color: 'var(--text-muted)' }}>Submit the form or shoot me an email for a resume</p>
+               <p className='text-2xl font-bold' style={{ color: 'var(--text-primary)' }}>KrisMannino@gmail.com</p>
           </div>
-          <input type="text" placeholder='Name' name='name' className='bg-[#ECECEC] p-2'/>
-          <input type="text" placeholder='Email' name='email' className='my-4 bg-[#ECECEC] p-2'/>
-          <textarea name="message" id="" rows="10" placeholder='Message........' className='bg-[#ECECEC] p-2'></textarea>
-          <button className='rounded-full text-[#ECECEC] border-2 px-4 py-3 my-8 mx-auto flex items-center hover:bg-[#3a98a5] hover:border-[#3a98a5]'>Get in Touch!</button>
+              <input type="text" placeholder='Name' name='name' className='p-2' style={{ backgroundColor: '#ECECEC', color: 'var(--text-muted)' }}/>
+              <input type="text" placeholder='Email' name='email' className='my-4 p-2' style={{ backgroundColor: '#ECECEC', color: 'var(--text-muted)' }}/>
+              <textarea name="message" id="" rows="10" placeholder='Message........' className='p-2' style={{ backgroundColor: '#ECECEC', color: 'var(--text-muted)' }}></textarea>
+              <button className='rounded-full text-primary border-2 px-4 py-3 my-8 mx-auto flex items-center' style={{ borderColor: 'var(--blue)' }} onMouseEnter={(e)=> e.currentTarget.style.backgroundColor='var(--blue)'} onMouseLeave={(e)=> e.currentTarget.style.backgroundColor='transparent'}>Get in Touch!</button>
         </form>
     </div>
   )
