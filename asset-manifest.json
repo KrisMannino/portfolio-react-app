@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b6bf7fc6.css",
-    "main.js": "/static/js/main.c738c29a.js",
+    "main.js": "/static/js/main.f7c2018c.js",
     "static/media/UNCDSD_KM_image_XL.png": "/static/media/UNCDSD_KM_image_XL.70ce8aafd4889966443f.png",
     "static/media/jpl_headshot.png": "/static/media/jpl_headshot.8035b0d698577083912b.png",
     "static/media/Sting_Matching_Report.pdf": "/static/media/Sting_Matching_Report.fd2dbe17b7991eedf379.pdf",
@@ -23,10 +23,10 @@
     "static/media/sql_icon.svg": "/static/media/sql_icon.f7e8fafcf677793d2eaf1a1704a90be8.svg",
     "index.html": "/index.html",
     "main.b6bf7fc6.css.map": "/static/css/main.b6bf7fc6.css.map",
-    "main.c738c29a.js.map": "/static/js/main.c738c29a.js.map"
+    "main.f7c2018c.js.map": "/static/js/main.f7c2018c.js.map"
   },
   "entrypoints": [
     "static/css/main.b6bf7fc6.css",
-    "static/js/main.c738c29a.js"
+    "static/js/main.f7c2018c.js"
   ]
 }
