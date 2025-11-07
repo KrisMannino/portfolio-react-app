@@ -129,7 +129,7 @@ const Work = () => {
               </div>{/**Close Project card---------- */}
 
               {/**PRoject card (hidden placeholder 3) */}
-              <div style={{backgroundImage: `url(${Paper1})`}} 
+              <div style={{backgroundImage: `url(${portSite})`}} 
               className='hidden shadow-lg shadow-[#ECECEC] group container rounded-md justify-center items-center mx-auto content-div'>
                     
                     {/**Hover effects */}
