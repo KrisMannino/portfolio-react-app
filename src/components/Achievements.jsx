@@ -9,9 +9,9 @@ const Achievements = () => {
   return (
     // <div name='achievements' className='w-full h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
   <div name='achievements' className='w-full min-h-screen sm:h-screen mx-auto pt-60'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full mt-9'>
         <div className='p-4'>
-          <p className='sm:text-9xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--bg-900)', color: 'var(--bg-900)'}}>Achievements</p>
+          <p className='sm:text-9xl font-bold inline border-b-4 mt-2' style={{ borderBottomColor: 'var(--bg-900)', color: 'var(--bg-900)'}}>Achievements</p>
           <p className='py-4 max-w-[900px] md:mr-[30%] sm:text-4xl mt-2' style={{ color: 'var(--text-muted)' }}>Here are some other things I have done</p>
         </div>
 
