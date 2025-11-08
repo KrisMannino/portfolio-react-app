@@ -7,12 +7,12 @@ import ieeePoster from '../assets/ieee_wildfire.png'
 
 const Work = () => {
   return (
-  <div name='work' className='w-full md:h-screen pt-20 md:pt-0' style={{ backgroundColor: 'var(--page-bg)', color: 'var(--text-muted)' }}>
+  <div name='work' className='w-full md:h-screen pt-20 md:pt-0' >
         
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-              <p className='text-4xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--blue)', color: 'var(--bg-900)' }}>Work</p>
-              <p className='py-6'>Here are some of my latest projects</p>
+              <p className='sm:text-9xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--bg-900)', color: 'var(--bg-900)'}}>Work</p>
+              <p className='py-4 max-w-[900px] md:mr-[30%] sm:text-4xl mt-2' style={{ color: 'var(--text-muted)' }}>Here are some of my latest projects</p>
             </div>
             {/** IEEE Poster as a project-style card */}
             <div className="w-full flex justify-center mb-8">

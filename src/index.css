@@ -30,6 +30,7 @@
     body {
       @apply font-[Raleway];
       @apply font-semibold;
+      background: var(--page-bg);
     }
     li {
       @apply px-3;
@@ -97,3 +98,83 @@
     background-position: 0% 50%;
   }
 } */
+
+/* ==== Floating Orbs Background (global, fixed layer) ==== */
+.bg-orbs {
+  position: fixed;
+  inset: 0;
+  z-index: -10;           /* always behind all content */
+  overflow: hidden;
+}
+
+/* base orb style */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.08;          /* very transparent */
+  filter: blur(29px);     /* soft glow look; remove if you want sharp edges */
+  animation: drift linear infinite alternate;
+  /* default size; each nth-child overrides to create variation */
+  width: 40vmin;
+  height: 40vmin;
+}
+
+/* color cycle: your three colors */
+.orb:nth-child(3n + 1) { background: var(--bg-900); }  /* #161C2E */
+.orb:nth-child(3n + 2) { background: var(--bg-700); }  /* #374054 */
+.orb:nth-child(3n)     { background: var(--accent); opacity: 0.06; } /* #8FFF0A a tad lighter */
+
+/* positions, sizes, and staggered slow durations */
+.orb:nth-child(1) {
+  top: -10vmin; left: -5vmin;
+  width: 55vmin; height: 55vmin;
+  animation-duration: 180s;
+  animation-delay: -12s;
+  --tx: 16vw; --ty: 22vh;
+}
+.orb:nth-child(2) {
+  top: 15vh; left: 60vw;
+  width: 45vmin; height: 45vmin;
+  animation-duration: 220s;
+  animation-delay: -40s;
+  --tx: -18vw; --ty: 14vh;
+}
+.orb:nth-child(3) {
+  top: 60vh; left: 10vw;
+  width: 70vmin; height: 70vmin;   /* bigger */
+  animation-duration: 260s;
+  animation-delay: -90s;
+  --tx: 22vw; --ty: -18vh;
+}
+.orb:nth-child(4) {
+  top: 30vh; left: -15vw;
+  width: 50vmin; height: 50vmin;
+  animation-duration: 140s;
+  animation-delay: -25s;
+  --tx: 28vw; --ty: 8vh;
+}
+.orb:nth-child(5) {
+  top: -20vh; left: 35vw;
+  width: 65vmin; height: 65vmin;   /* bigger */
+  animation-duration: 100s;
+  animation-delay: -70s;
+  --tx: 10vw; --ty: 28vh;
+}
+.orb:nth-child(6) {
+  top: 75vh; left: 70vw;
+  width: 52vmin; height: 52vmin;
+  animation-duration: 149s;
+  animation-delay: -30s;
+  --tx: -26vw; --ty: -10vh;
+}
+
+/* simple slow drift; distances come from --tx/--ty per orb */
+@keyframes drift {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(var(--tx, 10vw), var(--ty, 10vh), 0); }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .orb { animation: none; }
+}

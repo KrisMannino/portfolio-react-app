@@ -16,14 +16,14 @@ import Kubernetes from '../assets/kubernetes_icon.png'
 const Skills = () => {
   return (
     // <div name='skills' className='w-full h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
-  <div name='skills' className='w-full min-h-screen sm:h-screen mx-auto pt-20' style={{ backgroundColor: 'var(--page-bg)', color: 'var(--text-muted)' }}>
+  <div name='skills' className='w-full min-h-screen sm:h-screen mx-auto pt-20' >
         
 
         {/**Container div */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center'>
         <div className='p-4'>
-          <p className='text-4xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--bg-900)', color: 'var(--bg-900)' }}>Skills</p>
-          <p className='py-4 '>Classically trained in Java, my data science, research, and data engineering positions has grown my proficiency in python as of late.</p>
+          <p className='sm:text-9xl font-bold inline border-b-4' style={{ borderBottomColor: 'var(--bg-900)', color: 'var(--bg-900)'}}>Skills</p>
+          <p className='py-4 max-w-[900px] md:mr-[30%] sm:text-4xl mt-2' style={{ color: 'var(--text-muted)' }}>Classically trained in Java, my data science, research, and data engineering positions has grown my proficiency in python as of late.</p>
         </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
