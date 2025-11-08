@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4cdcfe67.css",
-    "main.js": "/static/js/main.f1fe85d2.js",
+    "main.css": "/static/css/main.0d3cc386.css",
+    "main.js": "/static/js/main.37ce9309.js",
     "static/media/UNCDSD_KM_image_XL.png": "/static/media/UNCDSD_KM_image_XL.70ce8aafd4889966443f.png",
     "static/media/jpl_headshot.png": "/static/media/jpl_headshot.8035b0d698577083912b.png",
     "static/media/Sting_Matching_Report.pdf": "/static/media/Sting_Matching_Report.fd2dbe17b7991eedf379.pdf",
@@ -22,11 +22,11 @@
     "static/media/python_icon.png": "/static/media/python_icon.2352cac0787ede2aa30e.png",
     "static/media/sql_icon.svg": "/static/media/sql_icon.f7e8fafcf677793d2eaf1a1704a90be8.svg",
     "index.html": "/index.html",
-    "main.4cdcfe67.css.map": "/static/css/main.4cdcfe67.css.map",
-    "main.f1fe85d2.js.map": "/static/js/main.f1fe85d2.js.map"
+    "main.0d3cc386.css.map": "/static/css/main.0d3cc386.css.map",
+    "main.37ce9309.js.map": "/static/js/main.37ce9309.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cdcfe67.css",
-    "static/js/main.f1fe85d2.js"
+    "static/css/main.0d3cc386.css",
+    "static/js/main.37ce9309.js"
   ]
 }
