@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d3cc386.css",
-    "main.js": "/static/js/main.37ce9309.js",
+    "main.css": "/static/css/main.e1e67646.css",
+    "main.js": "/static/js/main.e9d39c82.js",
     "static/media/UNCDSD_KM_image_XL.png": "/static/media/UNCDSD_KM_image_XL.70ce8aafd4889966443f.png",
     "static/media/jpl_headshot.png": "/static/media/jpl_headshot.8035b0d698577083912b.png",
     "static/media/Sting_Matching_Report.pdf": "/static/media/Sting_Matching_Report.fd2dbe17b7991eedf379.pdf",
@@ -10,7 +10,6 @@
     "static/media/CADS_Poster.jpeg": "/static/media/CADS_Poster.5afeeecc99ea9620b7e1.jpeg",
     "static/media/Kris-Logo-512x512.png": "/static/media/Kris-Logo-512x512.fb41f29a3c4d414985d9.png",
     "static/media/UNCDSD_KM_image.png": "/static/media/UNCDSD_KM_image.4afdb9b7338980619f7c.png",
-    "static/media/CADSposter.png": "/static/media/CADSposter.b59b6e42a6753b874c91.png",
     "static/media/PaperImg.png": "/static/media/PaperImg.0d5c55e58b21e27283b9.png",
     "static/media/portfolio_site.png": "/static/media/portfolio_site.dbfe6d4eb931957bce85.png",
     "static/media/react_icon.png": "/static/media/react_icon.dceaa1723fa4b0f19ff5.png",
@@ -22,11 +21,11 @@
     "static/media/python_icon.png": "/static/media/python_icon.2352cac0787ede2aa30e.png",
     "static/media/sql_icon.svg": "/static/media/sql_icon.f7e8fafcf677793d2eaf1a1704a90be8.svg",
     "index.html": "/index.html",
-    "main.0d3cc386.css.map": "/static/css/main.0d3cc386.css.map",
-    "main.37ce9309.js.map": "/static/js/main.37ce9309.js.map"
+    "main.e1e67646.css.map": "/static/css/main.e1e67646.css.map",
+    "main.e9d39c82.js.map": "/static/js/main.e9d39c82.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d3cc386.css",
-    "static/js/main.37ce9309.js"
+    "static/css/main.e1e67646.css",
+    "static/js/main.e9d39c82.js"
   ]
 }
