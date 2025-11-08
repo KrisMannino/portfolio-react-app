@@ -1,11 +1,13 @@
 import React from 'react';
 import researchPoster from '../assets/UNCDSD_KM_image.png'
 import researchXLPoster from '../assets/UNCDSD_KM_image_XL.png'
-import cADSPoster from '../assets/CADSposter.png'
+// import cADSPoster from '../assets/CADSposter.png'
 import CADSXLPoster from '../assets/CADS_Poster.jpeg'
 import jplHeadshot from '../assets/jpl_headshot.png'
 
 const Achievements = () => {
+  const [selectedImage, setSelectedImage] = React.useState(null);
+
   return (
     // <div name='achievements' className='w-full h-screen mx-auto bg-[#474787] text-[#AAABB8] pt-20'>
   <div name='achievements' className='w-full min-h-screen sm:h-screen mx-auto pt-60'>
@@ -23,7 +25,20 @@ const Achievements = () => {
               <p className='mt-2 sm:text-2xl'>My thesis work on wildfire burn severity prediction. Presented at the third annual UNC Data Science Day and Scholarship day at <a href="https://wssu.edu" >WSSU</a>, Spring-Summer 2025.</p>
             </div>
             <div className='flex justify-center items-center mb-8'>
-              <a href={researchXLPoster}><img className='w-auto h-auto shadow-md shadow-[#374054] hover:scale-110 duration-500' src={researchPoster} alt="CADS Poster" /></a>
+              <div
+                  className='flex justify-center items-center mb-8 cursor-pointer'
+                  onClick={() => setSelectedImage(researchXLPoster)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSelectedImage(researchXLPoster)}
+                >
+
+                <img 
+                  className='w-auto h-auto shadow-md shadow-[#374054] hover:scale-110 duration-500' 
+                  src={researchPoster} 
+                  alt="CADS Poster" 
+                />
+              </div>
             </div>
 
           {/* Second Item */}
@@ -53,7 +68,20 @@ const Achievements = () => {
             <p className='mt-2 sm:text-2xl'>Awarded Third Place for the non-Biological Sciences category in the Poster competition on Scholarship day at <a href="https://wssu.edu">WSSU</a>, Spring 2023.</p>
           </div>
           <div className='flex justify-center items-center mb-8'>
-            <a href={CADSXLPoster}><img className='w-auto h-auto shadow-md shadow-[#374054] hover:scale-110 duration-500' src={cADSPoster} alt="CADS Poster" /></a>
+            <div
+                  className='flex justify-center items-center mb-8 cursor-pointer'
+                  onClick={() => setSelectedImage(CADSXLPoster)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSelectedImage(CADSXLPoster)}
+                >
+
+                <img 
+                  className='w-auto h-auto shadow-md shadow-[#374054] hover:scale-110 duration-500' 
+                  src={CADSXLPoster} 
+                  alt="CADS Poster" 
+                />
+              </div>
           </div>
           {/* Fourth Item */}
           <div className='col-span-2 text-left flex flex-col justify-center'>
@@ -67,6 +95,18 @@ const Achievements = () => {
   
         </div>
       </div>
+      {selectedImage && (
+          <div
+            className="fixed inset-0 bg-black/70 z-50 flex justify-center items-center"
+            onClick={() => setSelectedImage(null)}
+            role="button"
+            tabIndex={0}
+            onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && setSelectedImage(null)}
+          >
+            <img src={selectedImage} alt="" className="max-w-[90%] max-h-[90%] rounded-lg shadow-lg" />
+          </div>
+        )}
+
     </div>
   );
 };
