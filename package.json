@@ -1,6 +1,7 @@
 {
   "homepage": "https://krismannino.com",
   "name": "portfolio-react-app",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
