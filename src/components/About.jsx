@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div>
               <p className='sm:text-2xl'>
-              I’m a computer science researcher and developer based in Winston-Salem. My work sits at the intersection of machine learning, data systems, and practical software development. I’m currently completing my M.S. in Computer Science at Winston-Salem State University, where I’ve been part of NASA-funded wildfire modeling research focused on analyzing polarimetric UAVSAR data to predict burn severity pre-ignition. A big part of my work involves building data pipelines, running feature engineering workflows, and developing interpretable ML models that help turn complex geospatial and remote sensing data into something decision-makers can actually use.
+              I’m a software engineer and data science researcher based in Winston-Salem, NC. My work sits at the intersection of machine learning, data systems, and practical software development. I’m recently completed my M.S. in Computer Science at Winston-Salem State University, where I contributed to NASA-funded wildfire modeling research focused on analyzing polarimetric UAVSAR data to predict burn severity pre-ignition. A big part of my work involves building data pipelines, running feature engineering workflows, and developing interpretable ML models that help turn complex geospatial and remote sensing data into something decision-makers can actually use.
               </p>
               <br />
               <p className='sm:text-2xl hidden lg:block'> 

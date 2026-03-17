@@ -9,9 +9,9 @@ const Hero = () => {
 
       {/* HeroDiv */}
       <div className='max-w-[1200px] mx-auto px-8 flex flex-col justify-center h-full '>
-  <p className='text-muted text-4xl' style={{ color: 'var(--bg-900)' }}>Hello, my name is</p>
+  {/* <p className='text-muted text-4xl' style={{ color: 'var(--bg-900)' }}>Hello, my name is</p> */}
         <h1 className='text-7xl sm:text-9xl font-bold' style={{ color: 'var(--bg-900)' }}>Kris Mannino</h1>
-        <h2 className='text-2xl sm:text-6xl font-bold md:mr-[30%]' style={{ color: '#8FFF0A' }}>Computer Science student at <a href="https://wssu.edu" target="_blank" rel="noopener noreferrer">Winston-Salem State University</a></h2>
+        <h2 className='text-2xl sm:text-6xl font-bold md:mr-[30%]' style={{ color: '#8FFF0A' }}>Software Engineer</h2>
 
         {/* Image Headshot */}
         {/* <img className='max-w-[25%] absolute right-0 mr-12 rounded-full border-4 shadow-lg shadow-[#374054] border-[#3a98a5] bg-[#374054] gradient-border hidden md:block' src={Headshot} alt="Kris' Headshot" /> */}
@@ -23,7 +23,7 @@ const Hero = () => {
         />
 
   <p className='py-4 max-w-[900px] md:mr-[30%] sm:text-4xl' style={{ color: 'var(--text-muted)' }}>
-          I am currently pursuing my Masters degree in Computer Science, working as a research assistant in the <a href="https://www.wssu.edu/academics/colleges-and-departments/college-of-arts-sciences-business-education/center-for-applied-data-science/index.html" target="_blank" rel="noopener noreferrer">Center for Applied Data Science</a>, and I&#39;m an all around pretty cool guy.
+          I recently recieved my MS in Computer Science, I am working as a Research Associate in the <a href="https://www.wssu.edu/academics/colleges-and-departments/college-of-arts-sciences-business-education/center-for-applied-data-science/index.html" target="_blank" rel="noopener noreferrer">Center for Applied Data Science</a> at <a href="https://wssu.edu" target="_blank" rel="noopener noreferrer">Winston-Salem State University</a>, and I&#39;m an all around pretty cool guy.
         </p>
 
         <div>
