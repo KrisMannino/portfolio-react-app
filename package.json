@@ -47,7 +47,7 @@
     "autoprefixer": "^10.4.27",
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4.2.2",
-    "vite": "^8.0.12",
+    "vite": "^8.0.13",
     "webpack-dev-middleware": "^8.0.2"
   },
   "resolutions": {
